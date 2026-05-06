@@ -39,14 +39,3 @@ Track your progress through the official Creator Awards:
 *   `time`: For process simulation.
 
 ---
-
-## 💻 Code Example (Logic Snippet)
-```python
-# Example of the event engine logic
-import random
-
-def check_career_status(subscribers):
-    # print("Calculating growth...") # From previous exercise: Basic subscriber logic
-    if random.random() < 0.05:
-        return "CANCELED" # The career-ruining event
-    return "STABLE"
